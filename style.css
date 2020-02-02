@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.col-4 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 50%;
+    padding: 0 2px;
+}
+
+#first-screen {
+    background: url("./image/background.jpg") no-repeat bottom center/cover rgba(0, 0, 0, 0.5);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.first-screen-box {
+    max-width: 734px;
+    color: #f7e4b0;
+    text-transform: uppercase;
+}
+
+.first-screen-title {
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    margin-top: 62px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+/*CONTACT*/
+#contact-info {
+    background: #dcdcdc;
+}
+
+.contact-screen {
+    max-width: 734px;
+    margin: 0 auto;
+}
+
+.image-photo {
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.ic {
+    width: 1.285714em;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #796135;
+    margin-left: 10px;
+}
+
+.contact {
+    font-size: xx-large;
+    margin-left: 10px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.contact-border {
+    box-shadow: 0 0 6px 0 black;
+    border-radius: 10px;
+    background: #ffffff;
+    height: 183px;
+}
+
+/*SKILLS*/
+#skills {
+    background: #dcdcdc;
+}
+
+.col-3 {
+    width: 33.3333%;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.my-skills-exp {
+    background: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.selection-title {
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.skills-exp-descriptions {
+    align-items: center;
+}
+
+.skills-descriptions {
+    align-items: center;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+}
+
+.img-skills {
+    padding: 10px;
+    width: 100px;
+    background: repeating-linear-gradient(45deg, wheat, transparent 100px);
+}
+
+.skill-container {
+    max-width: 734px;
+    margin: 0 auto;
+    background: #dcdcdc;
+    color: #000000;
+    box-shadow: 0 0 15px black;
+}
+
+/*PRESENTATION*/
+#presentation {
+
+}
+
+.presentation-screen {
+    max-width: 794px;
+    margin: 0 auto;
+}
+
+.cods {
+    margin: 10px 5px;
+    box-shadow: -1px 0 20px black;
+}
+
+.presentation-title {
+    padding: 10px;
+}
+
+/*LANGUAGE*/
+.languages-screen {
+    max-width: 784px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px black;
+}
+
+.languages-title {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.l-name {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.l-descriptions {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/*FOOTER*/
+#footer {
+    background: wheat;
+    align-items: center;
+}
+
+.footer-title, .footer-description {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Martel Sans", sans-serif;
+}
